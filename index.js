@@ -1,19 +1,19 @@
-function calculateTax(amount) {
+const calculateTax = (amount) => {
   return amount * 0.1;
-}
-console.log(calculateTax(200)); 
+};
+console.log(calculateTax(200));
 
-function convertToUpperCase(text) {
+const convertToUpperCase = (text) => {
   return text.toUpperCase();
-}
+};
 console.log(convertToUpperCase("hello"));
 
-function findMaximum(num1, num2) {
+const findMaximum = (num1, num2) => {
   if (num1 > num2) {
     return num1;
   }
   return num2;
-}
+};
 console.log(findMaximum(7, 12));
 
 function isPalindrome(word) {
